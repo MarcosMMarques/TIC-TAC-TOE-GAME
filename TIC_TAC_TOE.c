@@ -84,10 +84,11 @@ void board_drawing(int players, int s[]){
       printf("---------------------\n");
       printf("|       %c Won      |\n",(char)winner);
       printf("---------------------\n\n");
-      if(winner==88)
+      if(winner==88){
         s[0]++;
-      else
+      }else{
         s[1]++;
+      }
       printf("       X  |  O\n");
       printf("Score: %d  |  %d\n\n",s[0],s[1]);
       break;
@@ -95,6 +96,13 @@ void board_drawing(int players, int s[]){
       printf("---------------------\n");
       printf("|       DRAW        |\n");
       printf("---------------------\n\n");
+      if(winner==88){
+        s[0]++;
+      }else{
+        s[1]++;
+      }
+      printf("       X  |  O\n");
+      printf("Score: %d  |  %d\n\n",s[0],s[1]);
       break;
     }
     //Rounds in the player one is X
