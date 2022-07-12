@@ -1,5 +1,5 @@
 # TIC-TAC-TOE GAME :video_game:
-<p>TIC-TAC-TOE is a personal project with 2 game modes (One and Two Players), the bot made for single mode is on medium difficulty and the two player mode, made to play with a friend.<p/>
+<p>TIC-TAC-TOE is a personal project with 2 game modes (One and Two Players), the program have made for cmd using two functions, the main and board.<p/>
 
 ## 🚀 Technologies Used
 <div>
@@ -11,8 +11,10 @@
 <p>✔ Play with friend in 2 player mode </p>
 
 ## :clapper: How it works
+**Main Function:** This function is responsible for receive mode of game(If the main fuction does not validate the game mode, be in a loop), one or two player, passing as parametrer for the board function in next.
+**Board Function:** Is responsible for generate the board whit one integer matrix and centralizing decisions making. It transform the integers number in char on output.</br>
 **Mode games:**
-- **One player:**
+- **One player:** In this mode, have a bot as enemy in medium difficulty. Your logic is
 - **Two players:**
 <div align="center">
   <img src="" height="365">
