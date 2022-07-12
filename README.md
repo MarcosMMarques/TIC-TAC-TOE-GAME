@@ -1,5 +1,5 @@
 # TIC-TAC-TOE GAME :video_game:
-<p>TIC-TAC-TOE is a personal project with 2 game modes (One and Two Players), the program have made for cmd using two functions, the main and board.<p/>
+**TIC-TAC-TOE** is a personal project with **2 game modes** (One and Two Players), the program have made for **cmd** using **two functions**, the main and board.<p/>
 
 ## 🚀 Technologies Used
 <div>
