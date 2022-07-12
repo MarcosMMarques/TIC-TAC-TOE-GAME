@@ -11,9 +11,9 @@
 <p>✔ Play with friend in 2 player mode </p>
 
 ## :clapper: How it works
-<p><b>Mode games:</b></p>
-* <b>One player:</b>
-* <b>Two players:</b>
+**Mode games:**
+- **One player:**
+- **Two players:**
 <div align="center">
   <img src="" height="365">
 </div><br>
