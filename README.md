@@ -19,7 +19,9 @@
 - **One player:** In this mode, have a bot as enemy in medium difficulty. The bot's logic is to read the entire matrix, if it has a chance to win, it will execute this action as a priority, if not, it will analyze if there is a way for the player to win in the matrix, if so, it will block the player's victory, if not, he will play on the board randomly, leaving the game in a possible way to win. Its verification is done in the following order: It verifies the matrix horizontally, after that verifies it vertically and finally verifies the possibilities of the cross. Its checks are largely done with loops of loops with indices to check the status of the position, showing the user the matrix already changed and formatted.
 - **Two players:** In two player mode, player one identified as X and player two identified as O alternate moves to get a sequence of their respective symbols aligned. The program separates the two players in the rest of the division of the rounds variable by 2, differentiating each player by an odd or even number, in this game mode the table is shown in each move instead of being shown only in odd moves, using the verification matrix to identify a winner, if the maximum number of rounds is reached and there is no winner, there will be a tie, if so, the program starts a score count.</br>
 <div align="center">
-  <img src="" height="365">
+  <img src="https://github.com/MarcosMMarques/TIC-TAC-TOE-GAME/blob/main/img_1.png" height="365">
+  <img src="https://github.com/MarcosMMarques/TIC-TAC-TOE-GAME/blob/main/img_2.png" height="365">
+  <img src="https://github.com/MarcosMMarques/TIC-TAC-TOE-GAME/blob/main/img_3.png" height="365">
 </div><br>
 <a href="https://instagram.com/marcosd_marques" target="_blank"><img src="https://raw.githubusercontent.com/Aakarsh-B/trying-repos/master/insta.svg" width="40" height="40" target="_blank"></a>
 <a href = "mailto:mdmarques70@gmail.com"><img src="https://www.freeiconspng.com/thumbs/gmail-icon/gmail-logo-icon-2.png" width="40" height="40" target="_blank"></a>
