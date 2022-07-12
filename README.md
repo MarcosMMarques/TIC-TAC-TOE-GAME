@@ -11,7 +11,7 @@
 <p>✔ Play with friend in 2 player mode </p>
 
 ## :clapper: How it works
-**Main Function:** This function is responsible for receive mode of game(If the main fuction does not validate the game mode, be in a loop), one or two player, passing as parametrer for the board function in next.
+**Main Function:** This function is responsible for receive mode of game(If the main fuction does not validate the game mode, be in a loop), one or two player, passing as parametrer for the board function in next.</br>
 **Board Function:** Is responsible for generate the board whit one integer matrix and centralizing decisions making. It transform the integers number in char on output.</br>
 **Mode games:**
 - **One player:** In this mode, have a bot as enemy in medium difficulty. Your logic is
