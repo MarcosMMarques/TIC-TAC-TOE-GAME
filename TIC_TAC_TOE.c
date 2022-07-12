@@ -91,6 +91,7 @@ void board_drawing(int players, int s[]){
       }
       printf("       X  |  O\n");
       printf("Score: %d  |  %d\n\n",s[0],s[1]);
+      winner=0;
       break;
     }else if(winner==0 && rounds==10){
       printf("---------------------\n");
@@ -103,6 +104,7 @@ void board_drawing(int players, int s[]){
       }
       printf("       X  |  O\n");
       printf("Score: %d  |  %d\n\n",s[0],s[1]);
+      winner=0;
       break;
     }
     //Rounds in the player one is X
